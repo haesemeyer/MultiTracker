@@ -1,0 +1,9 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:SleepTracker_Views="clr-namespace:SleepTracker.Views" x:Class="SleepTracker.MainWindow"
+        Title="MainWindow" Height="999" Width="1786" Icon="/SleepTracker;component/ApplicationIcon.ico">
+    <Grid>
+    	<SleepTracker_Views:MainView Margin="9,13,20,24"/>
+    </Grid>
+</Window>
